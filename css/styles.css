@@ -11349,7 +11349,7 @@ line-height: 4rem;
 }
 
 .bg-faded {
-  background-color: #f6e1c5;
+  background-color: #ffffff;
 }
 
 .btn-xl {
@@ -11406,7 +11406,7 @@ line-height: 4rem;
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(230, 167, 86, 0.9);
+  background-color: rgba(238, 205, 83, 0.9);
 }
 .cta .cta-inner {
   position: relative;
