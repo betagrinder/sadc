@@ -60,7 +60,7 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
+  --bs-body-color: 216, 217, 246;
   --bs-body-bg: #fff;
 }
 
@@ -7717,7 +7717,8 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  /*color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;*/
+  color: rgb(133, 130, 127);
 }
 
 .text-secondary {
@@ -11288,7 +11289,7 @@ textarea.form-control-lg {
   }
 }
 body {
-  background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../assets/img/bg.jpg");
+  /* background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../assets/img/bg.jpg");*/
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -11299,7 +11300,8 @@ p {
 }
 
 .text-faded {
-  color: #f6e1c5;
+ /* color: #f6e1c5; */
+ color: rgb(227, 189, 64);
 }
 
 .site-heading {
@@ -11310,14 +11312,20 @@ p {
   font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .site-heading .site-heading-upper {
-  display: block;
+  /*display: block;
   font-size: 2rem;
-  font-weight: 800;
+  font-weight: 800;*/
+  display: block;
+font-size: 5rem;
+font-weight: 800;
 }
 .site-heading .site-heading-lower {
-  font-size: 5rem;
+  /*font-size: 5rem;
   font-weight: 100;
-  line-height: 4rem;
+  line-height: 4rem;*/
+  font-size: 4rem;
+font-weight: 500;
+line-height: 4rem;
 }
 
 .page-section {
@@ -11353,7 +11361,7 @@ p {
 }
 
 #mainNav {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: rgba(119, 124, 193, 0.6);
   font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 #mainNav .navbar-brand {
