@@ -61,7 +61,7 @@ h1::before {
 
 h1::after {
 	position:absolute;
-	top:0;
+	/*top:0; */
 	left:0;
 	margin-left:.5em;
 	content: attr(text);
